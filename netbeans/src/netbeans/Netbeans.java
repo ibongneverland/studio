@@ -4,6 +4,8 @@
  */
 package netbeans;
 
+import main.back.Dashboard;
+
 /**
  *
  * @author ibongneverland
@@ -14,7 +16,8 @@ public class Netbeans {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Dashboard aD = new Dashboard();
+        aD.setVisible(true);
     }
     
 }
