@@ -77,7 +77,6 @@ public class Dashboard extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 255, 204));
-        setPreferredSize(new java.awt.Dimension(805, 450));
         setResizable(false);
 
         jPanel6.setBackground(new java.awt.Color(204, 255, 204));
@@ -149,42 +148,42 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("001");
         jPanel6.add(jLabel2);
-        jLabel2.setBounds(350, 30, 150, 50);
+        jLabel2.setBounds(370, 30, 150, 50);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("001");
         jPanel6.add(jLabel3);
-        jLabel3.setBounds(350, 190, 150, 50);
+        jLabel3.setBounds(370, 170, 150, 50);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("001");
         jPanel6.add(jLabel4);
-        jLabel4.setBounds(570, 30, 150, 50);
+        jLabel4.setBounds(590, 30, 150, 50);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("001");
         jPanel6.add(jLabel5);
-        jLabel5.setBounds(570, 100, 150, 50);
+        jLabel5.setBounds(590, 100, 150, 50);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("001");
         jPanel6.add(jLabel6);
-        jLabel6.setBounds(350, 100, 150, 50);
+        jLabel6.setBounds(370, 100, 150, 50);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("001");
         jPanel6.add(jLabel7);
-        jLabel7.setBounds(570, 190, 150, 50);
+        jLabel7.setBounds(590, 170, 150, 50);
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 51, 51));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setText("Auto Refresh akan Menyebabkan Lag Saat Pengisian Display Antrian");
+        jLabel8.setText("Peringatan : Auto Refresh akan Menyebabkan Lag dan Lemot!");
         jPanel6.add(jLabel8);
         jLabel8.setBounds(330, 310, 460, 13);
 
@@ -196,14 +195,18 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel9.setBounds(20, 90, 300, 13);
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel10.setText("ANTRIAN PENDAFTARAN YANG SUDAH DIPANGGIL");
+        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel10.setText("NOMOR YANG SUDAH DIPANGGIL");
+        jLabel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel6.add(jLabel10);
-        jLabel10.setBounds(340, 80, 460, 15);
+        jLabel10.setBounds(340, 80, 460, 17);
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel11.setText("ANTRIAN PENDAFTARAN YANG BELUM DIPANGGIL");
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setText("NOMOR YANG BELUM DIPANGGIL");
+        jLabel11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel6.add(jLabel11);
-        jLabel11.setBounds(340, 20, 460, 15);
+        jLabel11.setBounds(340, 20, 460, 17);
 
         jButton3.setBackground(new java.awt.Color(255, 0, 0));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
@@ -250,9 +253,11 @@ public class Dashboard extends javax.swing.JFrame {
         jButton6.setBounds(560, 260, 220, 30);
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel12.setText("SELISIH ANTRIAN PENDAFTARAN");
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setText("SELISIH YANG BELUM DIPANGGIL");
+        jLabel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel6.add(jLabel12);
-        jLabel12.setBounds(340, 160, 460, 15);
+        jLabel12.setBounds(340, 150, 460, 17);
 
         getContentPane().add(jPanel6, java.awt.BorderLayout.CENTER);
 
