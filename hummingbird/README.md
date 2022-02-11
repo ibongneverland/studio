@@ -1,21 +1,21 @@
 # hummingbird
 
-main.dart
-modul
-/main   /front
-        /back
-setting
-/koneksi
-/akses
-/fungsi
-/validasi
-/tema
-/tambahan
----------------------
-aset
-/logo
-/gambar
-/icon
-/audio
-/video
-/font
+main.dart [enter]
+modul [enter]
+/main   /front [enter]
+        /back [enter]
+setting [enter]
+/koneksi [enter]
+/akses [enter]
+/fungsi [enter]
+/validasi [enter]
+/tema [enter]
+/tambahan [enter]
+--------------------- [enter]
+aset [enter]
+/logo [enter]
+/gambar [enter]
+/icon [enter]
+/audio [enter]
+/video [enter]
+/font [enter]
