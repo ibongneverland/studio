@@ -66,7 +66,6 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
@@ -93,7 +92,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jButton1);
-        jButton1.setBounds(120, 370, 90, 30);
+        jButton1.setBounds(180, 370, 90, 30);
 
         jButton2.setBackground(new java.awt.Color(255, 0, 0));
         jButton2.setFont(new java.awt.Font("Roboto", 1, 13)); // NOI18N
@@ -111,7 +110,7 @@ public class Dashboard extends javax.swing.JFrame {
         jButton2.setBounds(10, 20, 315, 40);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("DAM Versi 2.5.0");
+        jLabel1.setText("DAM Versi 2.5.2");
         jLabel1.setToolTipText("Info Update : Perbaikan di Menu Simpan Running Teks");
         jPanel6.add(jLabel1);
         jLabel1.setBounds(470, 330, 190, 17);
@@ -142,50 +141,43 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jButton4);
-        jButton4.setBounds(10, 370, 90, 30);
+        jButton4.setBounds(70, 370, 90, 30);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("001");
         jPanel6.add(jLabel2);
-        jLabel2.setBounds(370, 30, 150, 50);
+        jLabel2.setBounds(370, 30, 190, 50);
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("001");
         jPanel6.add(jLabel3);
-        jLabel3.setBounds(370, 170, 150, 50);
+        jLabel3.setBounds(370, 170, 190, 50);
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("001");
         jPanel6.add(jLabel4);
-        jLabel4.setBounds(590, 30, 150, 50);
+        jLabel4.setBounds(590, 30, 190, 50);
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("001");
         jPanel6.add(jLabel5);
-        jLabel5.setBounds(590, 100, 150, 50);
+        jLabel5.setBounds(590, 100, 190, 50);
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("001");
         jPanel6.add(jLabel6);
-        jLabel6.setBounds(370, 100, 150, 50);
+        jLabel6.setBounds(370, 100, 190, 50);
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("001");
         jPanel6.add(jLabel7);
-        jLabel7.setBounds(590, 170, 150, 50);
-
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setText("Peringatan : Auto Refresh akan Menyebabkan Lag dan Lemot!");
-        jPanel6.add(jLabel8);
-        jLabel8.setBounds(330, 310, 460, 13);
+        jLabel7.setBounds(590, 170, 190, 50);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 51, 51));
@@ -210,7 +202,7 @@ public class Dashboard extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(255, 0, 0));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Close");
+        jButton3.setText("Tutup");
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -358,7 +350,6 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JTextArea jTextArea2;

@@ -15,5 +15,5 @@ import javax.swing.JOptionPane;
  */
 public class Koneksi2 {
     //koding koneksi
-
+    
 }

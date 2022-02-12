@@ -19,6 +19,5 @@ public class Koneksi {
     public Koneksi(){}
     public static Connection getJaringan(){
         //koding koneksi
-  
 
 }
