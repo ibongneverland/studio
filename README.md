@@ -1,5 +1,6 @@
 # studio
 Ibongneverland Studio
 
-* Java, NetBeans
-* Dart, Flutter
+* Java: NetBeans
+* Dart: Flutter
+* JavaScript: ExpressJS
